@@ -3,6 +3,8 @@ Improv.pl Official Site
 
 # Improv Rewards Token 
 
+[IMPROV on SLP Explorer](https://explorer.bitcoin.com/bch/tx/d677b96105001c5aa0803ca36e034d9ae070e67b28861090a5148353496fc7e1)
+
 Tired of paying to attend improv shows and workshops? No more! Introducing Improv Rewards Token. This token was minted this morning and will be used as a way to grow & develop an international and free (as in beer) community of like-minded individuals that love to improvise on stage, at work, or life in general. You'll be able to earn these tokens (which will give you access to any Improv.pl and partner events) by doing any of the following:
 
 * attending our LIVE show
