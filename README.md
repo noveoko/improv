@@ -24,4 +24,8 @@ This coin will never be exchanged for money. It is not a monetary instrument. Th
 # Token Menu
 |Event/Service|Cost/Value|
 |---|---|
-|1 Hour Live Show|1000|
+|Attending 1 Hour Live Show|1000|
+|Commenting on Youtube Video|50|
+|Commenting on Twitter Post|50|
+|Guest Spot on Podcast|3000|
+|30-second song licensed for 1 podcast episode|2000|
