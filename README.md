@@ -20,3 +20,8 @@ Tired of paying to attend improv shows and workshops? No more! Introducing Impro
 * volunteering at a Non-profit/NGO
 
 This coin will never be exchanged for money. It is not a monetary instrument. The sole purpose is to create a way to share efforts across tasks to ensure everyone is rewarded for their contributions to the community in a fair way. The more you contribute the more you can share Improv with your friends, family, and random people online.
+
+# Token Menu
+|Event/Service|Cost/Value|
+|---|---|
+|1 Hour Live Show|1000|
