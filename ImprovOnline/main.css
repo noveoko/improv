@@ -1,0 +1,10 @@
+.person img {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+.person {
+    max-height: 100px;
+}

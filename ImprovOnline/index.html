@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <meta charset="utf-8" />
+    <title>Display Webcam Stream</title>
+
+    <style>
+      #container {
+        margin: 0px auto;
+        width: 500px;
+        height: 375px;
+        border: 10px #333 solid;
+      }
+      #videoElement {
+        width: 500px;
+        height: 375px;
+        background-color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div id="app" class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Improv Online</h3>
+            <p>Powered by Twillio</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col">
+            <h1>Host</h1>
+            <div class="person" id="p1" draggable="true" id="container">
+              <video autoplay="true" id="videoElement"></video>
+              <div>
+                <span>Controls</span>
+                <button class="btn btn-warning" onclick="stop()">Stop</button>
+                <button class="btn btn-warning" onclick="stop()">Start</button>
+              </div>
+              <div>
+                <span>Layouts</span>
+                <button class="btn btn-primary">Host</button>
+                <button class="btn btn-primary">+ Stage</button>
+                <button class="btn btn-info">- Stage</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Stage</h2>
+            <div v-for="image in stage">
+              <img @click="toggleImage(image, 'stage')" class="person" height="100" :src="videoPath(image)" />
+            </div>
+          </div>
+          <div class="col">
+            <h2>Audience</h2>
+            <div v-for="image in audience">
+              <img @click="toggleImage(image, 'audience')" class="person" height="100" :src="videoPath(image)" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="vue.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
